@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@500&family=Philosopher&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+body{
+    background-color: aliceblue;
+    background-image: url("images/back.jpg");
+}
+
+/* .nav{
+    background-color: rgb(78, 78, 230);
+    position: relative;
+    bottom: 1rem;
+} */
+/* .nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 1rem;
+    border: 0.25rem outset rgb(192, 187, 187);
+    column-gap: 1rem;
+} */
+
+.nav {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+}
+
+.searchBar input {
+    width: 15rem;
+    height: 1.6rem;
+    border: none;
+    border-bottom: 0.1rem solid white;
+    background: transparent;
+    outline: none;
+    color: white;
+    padding: 0 1rem;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30rem;
+}
+
+
+.bar li{
+    padding: 0 1rem;
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: 'Anek Gurmukhi', sans-serif;
+    color: aliceblue;
+    
+}
+
+.logo img{
+    width: 6rem;
+    border-radius: 3rem 3rem 0.5rem 0.5rem
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo span{
+    padding: 0 0.3rem;
+    font-size: 2rem;
+    margin-left: -1.5rem;
+}
+
+#text{
+    color: aliceblue;
+}
+.fa-magnifying-glass{
+    color: aliceblue;
+    position: relative;
+    left: 1rem;
+}
+
+.container {
+    min-height: 70vh;
+    font-family: 'Philosopher', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+#head{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    /* background-color: black; */
+    position: fixed;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    bottom: 0;
+    background-color: rgb(95, 91, 91);
+    width: 100vw;
+    
+}
+
+
+#musicBar{
+    width: 30vw;
+}
+
+.ic{
+    color: aliceblue;
+    margin: 0 1rem;
+}
+
+.svg-inline--fa {
+    vertical-align: 0.225em;
+}
+.ic{
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    margin: 12px 0;
+}
+
+.songName{
+    display: flex;
+    width: 30vw;
+}
+
+.songName img{
+    margin: 0 1rem;
+    height: 5vh;
+    position: relative;
+    bottom: 0.5rem;
+    margin-left: 1rem;
+}
+.one{
+    margin: 0 2.5rem;
+    position: relative;
+    right: 2.9rem;
+    
+}
+.main-item{
+    height: 15px;
+    opacity: 0.5;
+    font-size: 2rem;
+    
+}
+hr {
+    width: 100%;
+    opacity: 0.5;
+}
+.horiz-line{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+.songInfo{
+    color: rgb(252, 252, 103);
+    font-weight: 200;
+}
+
+.icons {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.range-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#masterPause {
+    display: none;
+}
+.Item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 -3.5rem;
+    height: 5vh;
+}
+ .single{
+    width: 2vw;
+}
+
+.songItemPlay {
+    display: none;
+}
+
+.songItemPlay{
+    cursor: pointer;
+} 
+.songItemPlay{
+    display: flex;
+    align-items: center;
+}
+.cbum {
+    display: flex;
+    align-items: center;
+    width: 10vw;
+}
+/* .sng{
+    width: 100%;
+} */
+.bar li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Anek Gurmukhi', sans-serif;
+}
